@@ -1,0 +1,51 @@
+/**
+ * @author Marcio Ribeiro (mmr)
+ * @created 21/08/2005
+ * @version $Id: service.css,v 1.1 2005/08/21 19:05:02 mmr Exp $
+ */
+
+body, h1, h2, h3, h4, h5, h6, form, ul, ol, li, p, td {
+      margin:  0px;
+      padding: 0px;
+      font-family: verdana, arial, helvetica, sans-serif;
+}
+
+body {
+    text-align: left;
+    background: #fff;
+    font-size: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+hr {
+    color: #77a;
+    height: 1px;
+}
+
+a:link, a:hover, a:link, a:visited {
+    text-decoration: none;
+    color: #77a;
+}
+a:hover {
+    text-decoration: underline;
+    background: #77a;
+    color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+input, textarea, select {
+    font-weight: bold;
+}
+
+div#commands {
+    text-align: center;
+}
+
+pre#log {
+    font-size: 10pt;
+    font-family: monospace;
+}
